@@ -1,10 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 
 
-import pygame
+
+#import pygame
 from pygame.locals import*
 
 ##### classes
