@@ -1396,8 +1396,8 @@ pygame.display.set_caption("Lonely Sad Robot")
 bg = pygame.image.load("bg4.jpg")
 #load music
 
-#music = pygame.mixer.music.load("music\LBYP- Black Sheep.mp3")
-#pygame.mixer.music.play(-1)
+music = pygame.mixer.music.load("music\LBYP- Black Sheep.mp3")
+pygame.mixer.music.play(-1)
 
 platform_lst = [pygame.Rect(700, 590, 150, 75),
                 pygame.Rect(0, 0, 75, 700),
@@ -1413,6 +1413,7 @@ player1 = Player1(50,50)
 
 
 run = True
+game_test_timer = 0
 while run:
     clock.tick(fps)
     screen.blit(bg, (0,0))
@@ -1431,11 +1432,13 @@ while run:
     pygame.display.update()
     
     
+    game_test_timer = game_test_timer + 1
     
        
         
         
-    
+    if game_test_timer == 1000:
+        break
 
 
 
