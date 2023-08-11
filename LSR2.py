@@ -1396,8 +1396,8 @@ pygame.display.set_caption("Lonely Sad Robot")
 bg = pygame.image.load("bg4.jpg")
 #load music
 
-music = pygame.mixer.music.load("music\LBYP- Black Sheep.mp3")
-pygame.mixer.music.play(-1)
+#music = pygame.mixer.music.load("music\LBYP- Black Sheep.mp3")
+#pygame.mixer.music.play(-1)
 
 platform_lst = [pygame.Rect(700, 590, 150, 75),
                 pygame.Rect(0, 0, 75, 700),
