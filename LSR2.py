@@ -1,7 +1,7 @@
 
 
 
-import pygame
+#import pygame
 from pygame.locals import*
 
 ##### classes
